@@ -1,16 +1,19 @@
 <template>
   <div class="index">
+    <MenuPrincipal/>
     <Home/>
   </div>  
 </template>
 
 <script>
+import MenuPrincipal from './components/menuprincipal.vue'
 import Home from './components/home.vue'
 
 export default {
   name: 'App',
   components: {
-    Home
+    MenuPrincipal,
+    Home    
   }
 }
 </script>
